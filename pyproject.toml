@@ -20,12 +20,14 @@ dependencies = [
     'PyYAML~=6.0',
     'lxml>=5.1',
     'six~=1.11',
-    'multipledispatch~=1.0'
+    'multipledispatch~=1.0',
+    # required until 2024-10 when python 3.9 will be the minimum supported version
+    'importlib_resources>=5.0',
 ]
 
 [project.optional-dependencies]
 test = [
-    'pytest~=9.0.2',
+    'pytest~=9.2',
     'pytest-datafiles~=2.0',
     'pytest-cov~=3.0',
     'soundfile~=0.10',
