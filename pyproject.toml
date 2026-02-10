@@ -29,7 +29,7 @@ dependencies = [
 test = [
     'pytest~=9.2',
     'pytest-datafiles~=2.0',
-    'pytest-cov~=3.0',
+    'pytest-cov~=7.0',
     'soundfile~=0.10',
 ]
 dev = [
