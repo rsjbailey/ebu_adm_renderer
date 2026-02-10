@@ -13,7 +13,7 @@
           packages.ear = python3.pkgs.buildPythonPackage rec {
             name = "ear";
             src = ./.;
-            propagatedBuildInputs = with python3.pkgs; [ numpy scipy six attrs multipledispatch lxml pyyaml ];
+            propagatedBuildInputs = with python3.pkgs; [ numpy scipy six attrs multipledispatch lxml pyyaml importlib_resources ];
             nativeBuildInputs = with python3.pkgs; [ setuptools ];
             pyproject = true;
 
