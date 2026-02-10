@@ -27,7 +27,7 @@ dependencies = [
 
 [project.optional-dependencies]
 test = [
-    'pytest~=9.2',
+    'pytest~=9.0.2',
     'pytest-datafiles~=2.0',
     'pytest-cov~=7.0',
     'soundfile~=0.10',
