@@ -20,7 +20,9 @@ dependencies = [
     'PyYAML~=6.0',
     'lxml>=5.1',
     'six~=1.11',
-    'multipledispatch~=1.0'
+    'multipledispatch~=1.0',
+    # required until 2024-10 when python 3.9 will be the minimum supported version
+    'importlib_resources>=5.0'
 ]
 
 [project.optional-dependencies]
